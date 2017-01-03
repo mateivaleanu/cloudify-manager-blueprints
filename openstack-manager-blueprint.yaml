@@ -156,6 +156,7 @@ inputs:
   # agent installer to identify it for your distro and release automatically.
   agent_package_urls:
     default:
+      ubuntu_wily_agent: http://10.0.2.6/repo/armband-centos/cloudify3-centos7-plugins/ubuntu-wily-agent.tar.gz
       ubuntu_trusty_agent: http://10.0.2.6/repo/armband-centos/cloudify3-centos7-plugins/ubuntu-trusty-agent.tar.gz
       ubuntu_xenial_agent: http://10.0.2.6/repo/armband-centos/cloudify3-centos7-plugins/ubuntu-xenial-agent.tar.gz
       centos_altarch_agent: http://10.0.2.6/repo/armband-centos/cloudify3-centos7-plugins/centos-altarch-agent_3.3.1-sp-b310.tar.gz
